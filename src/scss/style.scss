@@ -1,0 +1,23 @@
+@import 'base/variables';
+@import 'base/mixins';
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 5px;
+    max-width: 1419px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@import 'blocks/buttons';
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/instructions';
+@import 'blocks/connect-card';
+@import 'blocks/approve-card';
+@import 'blocks/metamask-card';
+@import 'blocks/confirm-card';
+@import 'blocks/footer';

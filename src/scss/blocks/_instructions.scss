@@ -1,0 +1,31 @@
+.instructions{
+	position: relative;
+	background: #160A50;
+	padding-top: 88px;
+	padding-bottom: 85px;
+	&__title{
+		margin: 0;
+		font-family: 'Circular Std';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 48px;
+		color: #FFFFFF;
+	}
+	&__cards{
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	&__card-item{
+		width: 343px;
+	}
+	&__card-item-text{
+		margin-top: 24px;
+		font-family: 'Circular Std';
+		font-style: normal;
+		font-weight: 450;
+		font-size: 18px;
+		line-height: 29px;
+		color: #FFFFFF;
+	}
+}

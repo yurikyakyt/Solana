@@ -1,0 +1,56 @@
+.promo{
+	background: #1D0A75;
+	&__wrapper{
+		display: flex;
+		justify-content: space-between;
+	}
+	&__title{
+		margin: 0;
+		margin-top: 111px;
+		font-family: 'Circular Std';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 56px;
+		line-height: 58px;
+		color: #FFFFFF;
+	}
+	&__descr{
+		width: 791px;
+		margin-top: 7px;
+		margin-bottom: 20px;
+		font-family: 'Circular Std';
+		font-style: normal;
+		font-weight: 450;
+		font-size: 18px;
+		line-height: 29px;
+		letter-spacing: 0.03em;
+		color: #FFFFFF;
+	}
+	&__img{
+		margin-top: 34.25px;
+		margin-bottom: -45px;
+		width: 530px;
+		height: 556px;
+		img{
+			max-width: 100%;
+		}
+	}
+	&__button-logo{
+		width: 20.18px;
+		img{
+			max-width: 100%;
+		}
+	}
+	&__button-text{
+		font-family: 'Circular Std';
+		font-style: normal;
+		font-weight: 450;
+		font-size: 24px;
+		letter-spacing: 0.015em;
+	}
+	&__button{
+		padding: 15px 47px 20px 41px;
+		display: flex;
+		justify-content: space-between;
+	}
+}

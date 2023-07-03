@@ -1,0 +1,80 @@
+.header{
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	&__logo{
+		display: flex;
+		align-items: center;
+	}
+	&__metamask-img{
+		width: 33.62px;
+		height: 31.1px;
+		margin-right: 6.38px;
+		img{
+			max-width: 100%;
+		}
+	}
+	&__phantom-img{
+		width: 34px;
+		height: 34px;
+		margin-right: 14px;
+		img{
+			max-width: 100%;
+		}
+	}
+	&__title{
+		display: flex;
+	}
+	&__title-text{
+		position: relative;
+		font-family: 'Circular Std';
+		font-style: normal;
+		font-weight: 500;
+		font-size: 20px;
+		color: #FFFFFF;
+		span{
+			position: absolute;
+			top: -4px;
+			right: -42px;
+			white-space: nowrap;
+			font-family: 'Circular Std';
+			font-style: normal;
+			font-weight: 500;
+			font-size: 9px;
+			color: #F5841F;
+		}
+	}
+	&__right-side{
+		display: flex;
+		align-items: center;
+	}
+	&__menu{
+		ul{
+			display: flex;
+			align-items: center;
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			a{
+				text-decoration: none;
+				font-family: 'Circular Std';
+				font-style: normal;
+				font-weight: 450;
+				font-size: 18px;
+				color: #FFFFFF;
+			}
+			li:first-child{
+				margin-right: 60px;
+			}
+			li:last-child{
+				margin-right: 44px;
+			}
+		}
+	}
+	&__button{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		letter-spacing: -0.03em;
+	}
+}

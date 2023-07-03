@@ -1,0 +1,13 @@
+.footer{
+	background: #0E0632;
+	padding-top: 26px;
+	padding-bottom: 26px;
+	&__text{
+		font-family: 'Inter';
+		font-style: normal;
+		font-weight: 600;
+		font-size: 13px;
+		text-align: center;
+		color: #C5C5C5;
+	}
+}
